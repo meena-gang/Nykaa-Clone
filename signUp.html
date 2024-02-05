@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./styles/signUp.css">
+</head>
+<body>
+    <main id="main-holder">
+        <h1 id="login-header" style="color: deeppink;">Creat Your Account</h1>
+        <img src="./assets/Nykaa logo.png" alt="nykaa logo" width="100px" height="30px" style="cursor: pointer;">
+        <form id="login-form">
+          <input type="text" name="name" id="name" class="login-form-field" placeholder="Name" required>
+          <input type="number" name="mobile" id="mobile" class="login-form-field" placeholder="Mobile Number" require minlength="10">
+          <input type="text" name="username" id="userName" class="login-form-field" placeholder="Valid Email Address" required>
+          <input type="password" name="password" id="password" class="login-form-field" placeholder="Password" required minlength="8">
+          <input type="submit" value="Register" id="register">
+        </form>
+    </main>
+</body>
+<script type="text/javascript" src="./src/signUp.js"></script>
+</html>

@@ -1,0 +1,53 @@
+#emptyCart{
+    width: 100%;
+    text-align: center;
+}
+.prdDiv{
+    padding: 10px;
+    
+}
+.prdInnerDiv{
+    border: 1px solid lightgray;
+    position: relative;
+    width: 50%;
+    border-radius: 10px;
+}
+.alignDiv{
+    display: flex;
+    gap: 24px;
+    
+}
+.fa{
+    padding: 15px;
+}
+.imgDiv{
+    width: 22%;
+}
+.productName{
+    width: 70%;
+    font-size: large;
+}
+.priceDiv{
+    border-top: 1px solid lightgray;
+    width: 96%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 9px 4px 14px;
+}
+.finalPriceDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+#finalPriceDetailDiv{
+    margin: 5px;
+    width: 47%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+
